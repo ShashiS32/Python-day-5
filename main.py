@@ -22,6 +22,8 @@ for letters in range (num_of_numbers):
 for letters in range (num_of_symbols):
   password.append(random.choice(symbols))
 
+#used random.shuffle() to shuffle the list
 random.shuffle(password)
-    
+
+#used .join() to convert the list to a string
 print ("".join(password))
